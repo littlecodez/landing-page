@@ -1,0 +1,141 @@
+/* Ensure the body and html take up the full screen height initially */
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  box-sizing: border-box;
+  width: auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  background-color: grey;
+  border: 2px solid black;
+}
+.container div {
+  height: auto;
+  /* border: 2px solid red; */
+  margin: 0;
+}
+
+/* children of 
+the first box */
+.one {
+  margin: 0 auto;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2937;
+  border: 0;
+  width: auto;
+}
+
+.header {
+  height: 100vh;
+  padding: 10px;
+}
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 30px;
+  color: white;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav img {
+  height: 100px;
+  width: auto;
+  border: 2px solid white;
+  border-radius: 50%;
+}
+
+/* for the text inside box one
+that is the name and tagline */
+
+.description {
+  color: white;
+  display: flex;
+  margin: 8px;
+  justify-content: space-between;
+  align-items: center;
+}
+.description div {
+  height: auto;
+  flex: 1;
+}
+.textbox-1 h1 {
+  font-family: "Segoe UI", Verdana, sans-serif;
+  color: #eaecf0;
+  transform: rotate(-15deg);
+  text-align: center;
+  margin-bottom: 100px;
+}
+.textbox-2 {
+  display: flex;
+  height: 300px;
+  width: 300px;
+}
+.finalist {
+  height: 300px;
+  width: auto;
+}
+.logo-1 {
+  background-color: #007bff;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  font-weight: 600;
+  transform: none;
+  font-size: 16px;
+}
+
+/* the 2nd box */
+.two {
+  margin: 0 auto;
+  padding: 8px;
+  display: flex;
+  background-color: white;
+  /* border: 2px solid red; */
+}
+
+.two img {
+  height: 250px;
+  border: 4px solid white;
+  width: auto;
+  border-radius: 50%;
+  gap: 2px;
+}
+.all-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  padding: 8px;
+}
+.item {
+  background-color: #1f2937;
+  padding: 10px;
+  border-radius: 50%;
+}
+/* for the 3rd box */
+/* the 2nd box */
+.third {
+  margin: 0 auto;
+  padding: 8px;
+  display: flex;
+  background-color: white;
+  /* border: 2px solid red; */
+}
