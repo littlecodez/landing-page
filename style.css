@@ -105,11 +105,12 @@ that is the name and tagline */
   flex-direction: row;
 }
 .finalist {
-  height: 300px;
+  height: 250px;
   width: auto;
   border-radius: 15px;
   border: 2.5px solid wheat;
-  margin-left: 10px;
+  margin: 12px;
+  display: block;
 }
 .logo-1 {
   background-color: #007bff;
