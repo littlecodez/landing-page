@@ -20,6 +20,7 @@ body {
   height: auto;
   /* border: 2px solid red; */
   margin: 0;
+  width: fit-content;
 }
 
 /* children of 
