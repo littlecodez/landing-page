@@ -20,7 +20,7 @@ body {
   height: auto;
   /* border: 2px solid red; */
   margin: 0;
-  width: fit-content;
+  width: auto;
 }
 
 /* children of 
@@ -81,12 +81,11 @@ that is the name and tagline */
   margin: 8px;
   justify-content: space-between;
   align-items: center;
-  width: auto;
 }
 .description div {
   height: auto;
   flex: 1;
-  width: auto;
+  width: fit-content;
 }
 .textbox-1 {
   flex-direction: column;
@@ -101,7 +100,7 @@ that is the name and tagline */
 }
 .textbox-2 {
   height: 300px;
-  width: auto;
+  width: 300px;
   display: flex;
   flex-direction: row;
 }
