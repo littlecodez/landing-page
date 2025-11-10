@@ -81,11 +81,12 @@ that is the name and tagline */
   margin: 8px;
   justify-content: space-between;
   align-items: center;
+  width: auto;
 }
 .description div {
   height: auto;
   flex: 1;
-  width: fit-content;
+  width: auto;
 }
 .textbox-1 {
   flex-direction: column;
@@ -100,7 +101,7 @@ that is the name and tagline */
 }
 .textbox-2 {
   height: 300px;
-  width: 300px;
+  width: auto;
   display: flex;
   flex-direction: row;
 }
