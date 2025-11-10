@@ -84,6 +84,7 @@ that is the name and tagline */
 .description div {
   height: auto;
   flex: 1;
+  width: fit-content;
 }
 .textbox-1 {
   flex-direction: column;
@@ -107,7 +108,7 @@ that is the name and tagline */
   width: auto;
   border-radius: 15px;
   border: 2.5px solid wheat;
-  margin-left: 100px;
+  margin-left: 10px;
 }
 .logo-1 {
   background-color: #007bff;
